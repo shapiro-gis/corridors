@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title> Wildlife Corridors </title>
+        <link rel = "icon" href ="elk.png">
+        <link
+        rel="stylesheet"
+        href= "style.css"
+      />
+      <link
+      rel="stylesheet"
+      href="https://js.arcgis.com/4.23/esri/themes/dark/main.css"
+    />
+    <script src="https://js.arcgis.com/4.23/"></script>
+
+    </head>
+    <body>
+    <script type = "text/javascript" src = "java.js"> </script>
+    <div id="openModal" class="modalDialog">
+        <div>
+          <a href="#close" title="Close" class="close">X</a>
+      
+          <h1 style="color:white" >Welcome!</h1>
+          <p style="color:white; font-size: 14px; text-align: center">The information contained in these data is dynamic and may change over time. It is the responsibility of the data user to use the data appropriately and consistently within the limitations of geospatial data in general and these data in particular. UDWR provides no warranty nor accepts any responsibility or liability for any inaccurate or incomplete data associated with this file.
+            <br></br> 
+          <div id = "images">
+            <img src="WT_Logo_Dark.png" style="width:80px;height:60px;" class = "fblogo"><img src="dwr-bg.png" style="width:60px;height:60px;" class="fblogo">
+          </div> </p>
+      
+        </div>
+      </div>
+    <div id="map">
+        <div id="sidebar" class="esri-widget">
+            <div id="text"> <h1>Utah Wildlife Corridors </h1>
+                <i>Contact: Jessie Shapiro</i>
+                <i>Updated: Spring 2022</i>
+
+
+                <p> These data represent the DWR edited version of statistically based polygons derived from GPS collared data on animals migrating in Utah from 2016 - 2021. The GPS data were analyzed using the Brownian Bridge Movement Model (BBMM), which produced polygons based on an animal’s movement path from data recorded at brief intervals. This model understands that location points are connected to each other in time. Every animal has its own footprint of its migration. Each animal’s averaged footprint is combined into one layer. Corridor level of use types are combined and clipped into one dataset and the level of use is classified:
+                   <br></br>
+
+                <br>High Use: > 75% of the population </br>
+                    
+                <br>Medium use: 25 - 75% of the population </br>
+                    
+                <br> Low use: 0 - 25% of the population </br>
+
+             </div>
+        </div>
+
+    </div>
+
+    </body>
+</html>

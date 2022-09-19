@@ -1,0 +1,16 @@
+body {
+    background: lightblue;
+}
+
+#map {
+    width: 100%;
+    height: 500px;
+    outline: blue dotted thick;
+    top: 200px;
+    background: blue;
+}
+
+#notifier{
+    text-align: center;
+    font-size: 30px;
+}
